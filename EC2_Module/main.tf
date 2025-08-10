@@ -1,5 +1,5 @@
 resource "aws_instance" "ec2_server" {
-  count = var.ec2_server_count
+  count             = var.ec2_server_count
 
   ami               = var.ami
   instance_type     = var.instance_type
